@@ -1,0 +1,38 @@
+@import url("../../../../../src/Css/Libs/Bootstrap.css");
+body {
+    background-color: #ececec;
+}
+nav {
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    color: #fff;
+    box-sizing: border-box;
+}
+nav #welcome {
+    font-size: large;
+    margin-left: 20px;
+
+}
+nav #actions {
+    margin-right: 20px;
+    align-self: stretch;
+    display: flex ;
+    align-items: center;
+}
+nav #logout-button {
+    display: inline-block;
+    height: 70% ;
+    box-sizing: border-box ;
+    padding: 8px 18px ;
+    border : 1px solid #f57676 ;
+    border-radius: 3px ;
+    text-decoration: unset;
+    color : inherit ;
+}
+nav #logout-button:hover {
+    color : #f57676 ; 
+}

@@ -1,0 +1,33 @@
+@import url("../../../../../src/Css/Libs/Bootstrap.css");
+body {
+    font-family: "roboto-regular";
+    background-color: #f2f0f0 ;
+}
+.field-row {
+    margin-bottom: 25px ;
+}
+
+#notification-container div.notification {
+    margin-bottom: 25px ;
+    text-indent: 10px;
+}
+#notification-container div.error {
+    background-color: #f8bbbb;
+    color: #a83b3b;
+}
+#notification-container div.ok {
+    background-color: rgb(152, 223, 199);
+    color: rgb(15, 126, 78);
+}
+
+#loading {
+    text-align: center ;
+    display: none;
+}
+#loading img  {
+    width: 50px;
+    height: 50px;
+}
+.show {
+    display: block !important ;
+}
